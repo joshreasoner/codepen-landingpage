@@ -8,4 +8,4 @@ Navbar that includes "Pens, Projects, Posts, Collections, and Spark with a down 
 Images - use available tools to recreate colors, etc.
 Don't worry about replicating any functionality features such as drop-down, scrolling, etc. Simply replicate the landing page.
 
-In this module I was never taught SCSS and I'm not a rubyist. So I havent included any preprocessing os SCSS.
+In this module I was never taught SCSS and I'm not a rubyist. So I havent included any SCSS.
