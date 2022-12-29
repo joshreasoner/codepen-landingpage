@@ -1,0 +1,19 @@
+/* Include these elements
+Navbar that includes "Pens, Projects, Posts, 
+Collections, and Spark with a down chevron
+ (does not need to actually dropdown).
+Images - use available tools to recreate colors, 
+etc.
+Don't worry about replicating any functionality 
+features such as drop-down, 
+scrolling, etc. Simply replicate the landing page. */
+
+body {
+    margin: 0px;
+    font-family: 'Lato', 'sans-serif';
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', 'sans-serif';
+}

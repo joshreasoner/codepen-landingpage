@@ -1,0 +1,61 @@
+.navigation-wrapper {
+    height: 70px;
+    background-color: #111111;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+}
+/* left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    justify-content: center;
+}
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 200px;
+    height: 100%;
+}
+
+/* center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 500px;
+    word-spacing: 5px;
+    padding-left: 50px;
+    font-weight: 1000;
+}
+
+.navigation-wrapper > .center-column > .header-text {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link > #spark {
+    color: #a0a2a3;
+    padding-left: 15px;
+}
+
+/* right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation-wrapper > .right-column > .btn i {
+    color: lightgreen;
+}
+.navigation-wrapper > .right-column > .search-icon {
+    font-size: 1.75em;
+    color: darkgray;
+}
+
+

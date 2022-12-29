@@ -1,0 +1,29 @@
+.footer {
+    background-color: #313336;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+}
+
+.footer > .links-wrapper {
+    padding: 17px 70px;
+    width: 400px;
+    border: 1px solid gray;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.footer > .links-wrapper > .nav-link {
+    letter-spacing: -1.5px;
+    font-size: 1.2em;
+    font-weight: 350;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.footer > .links-wrapper > .nav-link b {
+    font-weight: 1000;
+}

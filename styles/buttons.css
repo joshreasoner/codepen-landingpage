@@ -1,0 +1,42 @@
+.btn {
+    background-color: #444857;
+    color: #FFFFFF;
+    min-width: 4em;
+    font-size: 1.1em;
+    padding: 10px 25px;
+    border: 1px solid #444857;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn i {
+    color: lightgreen;
+}
+
+.btn-row {
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.btn-row > .signup-btn {
+    background-color: lawngreen;
+    border: 1px solid lawngreen;
+    border-radius: 3px;
+    min-width: 100px;
+    min-height: 60px;
+    font-size: 2em;
+    padding: 12px 20px;
+}
+
+.btn-row > .learn-btn {
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    min-width: 90px;
+    min-height: 50px;
+    font-size: 2em;
+    padding: 12px 20px;
+}
